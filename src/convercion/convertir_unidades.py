@@ -1,4 +1,5 @@
-"""
+def convertir_ah_a_wh(ah, voltaje):
+    """
     Convierte la capacidad de una batería de Ah a Wh.
 
     Fórmula:
@@ -17,20 +18,20 @@
         float: energía en Wh.
 """
 
-# Segunda funcion 
-"""
-    Convierte horas a minutos.
+def horas_a_minutos(horas):
+    """
+        Convierte horas a minutos.
 
-    Fórmula:
-        minutos = horas × 60
+        Fórmula:
+            minutos = horas × 60
 
-    Donde:
-        horas   : tiempo en horas.
-        minutos : tiempo en minutos.
+        Donde:
+            horas   : tiempo en horas.
+            minutos : tiempo en minutos.
 
-    Parámetros:
-        horas (float): tiempo en horas.
+        Parámetros:
+            horas (float): tiempo en horas.
 
-    Retorna:
-        float: tiempo en minutos.
+        Retorna:
+            float: tiempo en minutos.
     """
